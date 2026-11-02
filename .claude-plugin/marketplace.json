@@ -1,0 +1,16 @@
+{
+	"name": "flowleap-methods",
+	"owner": {
+		"name": "FlowLeap"
+	},
+	"metadata": {
+		"description": "FlowLeap methods: patent work methods (skills) for FlowLeap Patent AI agents."
+	},
+	"plugins": [
+		{
+			"name": "flowleap-methods",
+			"source": "./",
+			"description": "15 patent work methods for FlowLeap Patent AI agents. Each method calls the FlowLeap patent tools by name; in Claude Code they come from the FlowLeap connector."
+		}
+	]
+}

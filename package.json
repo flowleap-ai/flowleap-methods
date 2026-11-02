@@ -1,0 +1,45 @@
+{
+  "name": "flowleap-methods",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "FlowLeap methods: 15 patent work methods (skills) for FlowLeap Patent AI agents, from prior-art search and freedom to operate to office action analysis and invalidity.",
+  "main": "dsh/index.js",
+  "files": [
+    "dsh/index.js",
+    "dsh/cordis.patch.yml",
+    "skills",
+    ".claude-plugin"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./dsh/cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "yaml": "2.9.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "claude-code-plugin",
+    "patent",
+    "patent-ai",
+    "prior-art",
+    "freedom-to-operate",
+    "office-action",
+    "skills"
+  ],
+  "homepage": "https://github.com/flowleap-ai/flowleap-methods",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flowleap-ai/flowleap-methods.git"
+  },
+  "author": "FlowLeap",
+  "license": "MIT"
+}

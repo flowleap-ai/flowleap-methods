@@ -1,0 +1,13 @@
+{
+	"name": "flowleap-methods",
+	"displayName": "FlowLeap methods",
+	"version": "1.0.0",
+	"description": "15 patent work methods for FlowLeap Patent AI agents: prior-art search, Find Better, invalidity, freedom to operate, landscape, claim analysis and drafting, infringement charts, office action analysis, invention disclosure, maintenance fees, patent dossiers, literature review, audit records and dashboards. Each method calls the FlowLeap patent tools by name; in Claude Code they come from the FlowLeap connector.",
+	"author": {
+		"name": "FlowLeap"
+	},
+	"homepage": "https://github.com/flowleap-ai/flowleap-methods",
+	"repository": "https://github.com/flowleap-ai/flowleap-methods",
+	"license": "MIT",
+	"keywords": ["patent", "patent-ai", "prior-art", "freedom-to-operate", "office-action", "claim-analysis", "dsh-plugin"]
+}
