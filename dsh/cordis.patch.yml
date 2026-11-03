@@ -1,0 +1,8 @@
+# The layer this bundle contributes to a dsh profile that lists it: one row
+# that publishes the 15 methods of skills/ on ctx.skills. The methods call the
+# FlowLeap patent tools by name; the profile provides those tools (the
+# FlowLeap Patent AI app has them built in).
+
+- insert:
+    - id: flowleap-methods
+      name: flowleap-methods
